@@ -1,0 +1,39 @@
+/* ================= Buttons ================= */
+.nav-actions { display: flex; align-items: center; gap: 1rem; }
+
+.btn {
+  padding: 0.8rem 1.8rem;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary { background-color: var(--accent-primary); color: #ffffff; }
+.btn-primary:hover {
+  background-color: var(--accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 101, 0, 0.35);
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 0.6rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--theme-transition);
+}
+.btn-icon:hover { background-color: var(--border-color); }

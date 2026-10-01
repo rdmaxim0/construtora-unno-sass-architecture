@@ -16,12 +16,12 @@ const Header = () => {
             <div className="container nav-container">
 
                 {/* Logo */}
-                <a href="#home" className="brand-logo">
+                <a href="#hero" className="brand-logo">
                     {theme === 'dark' ? <img src={LogoUnno} alt="Logo Unno Engenharia" /> : <img src={LogoCircle} alt="Logo Unno Engenharia" /> }
                 </a>
                 {/* Menu Principal */}
                 <nav className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
-                    <a href="#home" className="nav-link active" onClick={() => setIsMenuOpen(false)}>Home</a>
+                    <a href="#hero" className="nav-link active" onClick={() => setIsMenuOpen(false)}>Home</a>
                     <a href="#sobre" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sobre</a>
                     <a href="#servicos" className="nav-link" onClick={() => setIsMenuOpen(false)}>Serviços</a>
                     <a href="#projetos" className="nav-link" onClick={() => setIsMenuOpen(false)}>Projetos</a>

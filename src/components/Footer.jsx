@@ -35,7 +35,7 @@ const Footer = () => {
         <div className="footer-links">
           <h3>Links Rápidos</h3>
           <ul>
-            <li><a href="#home">Início</a></li>
+            <li><a href="#hero">Início</a></li>
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#processo">Nosso Processo</a></li>

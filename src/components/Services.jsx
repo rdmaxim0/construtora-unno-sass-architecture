@@ -31,7 +31,7 @@ const Services = () => {
           <p className="services-desc">
             Arquitetura, Construção Residencial, Construção Comercial, Interiores, Gestão de Projeto.
           </p>
-          <a href="#projetos" className="btn btn-outline btn-services">
+          <a href="#contact-form" className="btn btn-outline btn-services">
             SAIBA MAIS <ChevronRight size={18} strokeWidth={2} />
           </a>
         </div>

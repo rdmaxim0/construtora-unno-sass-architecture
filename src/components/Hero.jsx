@@ -2,7 +2,7 @@ import { ChevronRight } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <section className="hero-section">
+        <section className="hero-section" id='hero'>
             <div className="container hero-content">
 
                 <div className="hero-decorator">

@@ -1,0 +1,18 @@
+// 1. Abstracts (Variáveis e Mixins)
+@use './abstracts/variables';
+
+// 2. Base
+@use './base/reset';
+@use './base/utilities';
+
+// 3. Components 
+@use './components/hero';
+@use './components/navbar';
+@use './components/buttons';
+@use './components/metrics';
+@use './components//about';
+@use './components//projects';
+@use './components/services';
+@use './components/process';
+@use './components/contacts';
+@use './components//footer'

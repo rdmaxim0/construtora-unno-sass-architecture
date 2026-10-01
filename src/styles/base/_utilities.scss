@@ -1,0 +1,24 @@
+@use '../abstracts/mixins' as *;
+
+/* Esconde elementos mobile em ecrãs grandes */
+.mobile-only, .mobile-cta { 
+  display: none !important; 
+}
+
+/* Mostra elementos mobile e esconde desktop em ecrãs menores */
+@include respond-to('large') {
+  .desktop-only { 
+    display: none !important; 
+  }
+  .mobile-only { 
+    display: flex !important; 
+  }
+}
+
+@include respond-to('medium') {
+  .mobile-cta { 
+    display: flex !important; 
+    justify-content: center; 
+    margin-top: 1rem; 
+  }
+}

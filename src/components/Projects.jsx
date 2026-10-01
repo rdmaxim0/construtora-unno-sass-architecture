@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { ArrowUpRight, X, Maximize2 } from 'lucide-react';
-import luxuryHouse from '../assets/luxuryHouse.jpg'; 
 import paelImg from '../assets/PaelRJ.jpeg'
 import mizuImg from '../assets/MizuRJ.jpeg'
 import crapiImg from '../assets/CrapiCesarao.jpeg'
@@ -70,7 +69,7 @@ const Projects = () => {
         <div className="projects-header">
           <span className="sub-title">PORTFÓLIO</span>
           <h2>Projetos Que<br />Definem o Padrão</h2>
-          <a href="#contatos" className="btn btn-outline btn-projects">
+          <a href="#contact-form" className="btn btn-outline btn-projects">
             VER OUTROS PROJETOS <ArrowUpRight size={18} strokeWidth={2} />
           </a>
         </div>
@@ -129,7 +128,7 @@ const Projects = () => {
                   </div>
                 </div>
 
-                <a href="#contatos" className="btn btn-primary modal-btn" onClick={() => setSelectedProject(null)}>
+                <a href="#contact-form" className="btn btn-primary modal-btn" onClick={() => setSelectedProject(null)}>
                   SOLICITAR ORÇAMENTO PARECIDO
                 </a>
               </div>

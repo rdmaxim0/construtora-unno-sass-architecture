@@ -27,7 +27,7 @@ const Contact = () => {
     return (
         <section id="contatos" className="contact-section">
       <div className="container contact-container">
-        <div className="contact-form-wrapper">
+        <div className="contact-form-wrapper" id="contact-form">
           <form className="contact-form" onSubmit={handleSubmit}>
             <h3>Solicite um Orçamento</h3>
             <p>Preencha os dados e falaremos com você via WhatsApp.</p>

@@ -8,8 +8,7 @@ import Process from './components/Process';
 import  Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import './styles/variables.css';
-import './styles/global.css';
+import './styles/main.scss'
 
 
 
